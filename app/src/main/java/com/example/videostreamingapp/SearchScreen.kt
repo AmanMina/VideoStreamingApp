@@ -29,7 +29,7 @@ fun SearchScreen(navController: NavController) {
         OutlinedTextField(
             value = searchQuery,
             onValueChange = { searchQuery = it },
-            label = { Text("Search Videos") },
+            label = { Text("Find Videos") },
             modifier = Modifier
                 .fillMaxWidth()
                 .background(MaterialTheme.colorScheme.background)
